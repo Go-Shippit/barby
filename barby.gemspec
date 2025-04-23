@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage              = "http://toretore.github.com/barby"
   s.description           = "Barby creates barcodes."
   s.authors               = ['Tore Darell']
-  s.required_ruby_version = '>= 3.1'
+  # s.required_ruby_version = '>= 3.1'
   s.licenses              = []
 
   s.extra_rdoc_files  = ["README.md"]
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_paths     = ["lib"]
 
   s.add_development_dependency "minitest",        "~> 5.25"
-  s.add_development_dependency "bundler",         "~> 2.5"
+  s.add_development_dependency "bundler"#,         "~> 2.5"
   s.add_development_dependency "rake",            "~> 13.2"
   s.add_development_dependency "rqrcode",         "~> 2.2"
   s.add_development_dependency "prawn",           "~> 2.5"

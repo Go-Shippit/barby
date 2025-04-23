@@ -14,6 +14,14 @@ yet, and it will work with all existing symbologies.
 
 For more information, check out [the Barby wiki][wiki].
 
+### Fork
+
+This is a fork of the original Barby gem. 
+List of differences:
+
+- Lowered dependencies:
+  - Unpinned `required_ruby_version`
+  - Unpinned `bundler`
 
 ### New require policy
 
